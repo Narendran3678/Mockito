@@ -6,7 +6,6 @@
 	<groupId>com.mock</groupId>
 	<artifactId>MockitoFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
 	<name>MockitoFramework</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.mockito-powermock-api.com</url>

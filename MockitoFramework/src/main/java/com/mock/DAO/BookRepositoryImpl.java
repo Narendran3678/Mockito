@@ -6,7 +6,7 @@ import com.mock.Entity.Books;
 
 public class BookRepositoryImpl implements BookRepository
 {	
-	static private Map<String,Books> bookList = null;
+	static private Map<String,Books> bookList = new HashMap<String,Books>();
 	public BookRepositoryImpl()
 	{
 		
@@ -17,10 +17,6 @@ public class BookRepositoryImpl implements BookRepository
 		if(book==null)
 		{
 			return 0;
-		}
-		if(bookList==null)
-		{
-			bookList = new HashMap<String,Books>();
 		}
 		bookList.put(book.getTitle(), book);
 		return bookList.size();

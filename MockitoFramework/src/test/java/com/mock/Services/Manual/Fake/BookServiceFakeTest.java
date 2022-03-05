@@ -4,7 +4,6 @@ import java.time.LocalDate;
 
 import org.junit.Assert;
 import org.junit.Test;
-
 import com.mock.DAO.BookRepositoryImpl;
 import com.mock.Entity.Books;
 import com.mock.Services.BookServices;
@@ -22,6 +21,6 @@ public class BookServiceFakeTest
 	@Test
 	public void fakeTestGetMethod()
 	{
-		Assert.assertTrue(service.getBookList().size()>0);
+		Assert.assertNotNull(service.getBookList());
 	}
 }
