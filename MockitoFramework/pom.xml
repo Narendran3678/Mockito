@@ -9,7 +9,7 @@
 	<name>MockitoFramework</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.mockito-powermock-api.com</url>
-
+	<packaging>jar</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
